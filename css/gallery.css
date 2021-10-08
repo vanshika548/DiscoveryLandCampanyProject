@@ -1,0 +1,271 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.gheader {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 65%;
+}
+
+.header-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: initial;
+    min-height: unset;
+}
+
+.item-container {
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    font-weight: 600;
+}
+
+.gitems {
+    color: #fff;
+    position: absolute;
+    font-size: 3.5rem;
+    font-family: 'Cormorant Garamond', serif;
+    bottom: 85px;
+    left: 160px;
+}
+
+.gmain-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(24, 24, 24);
+    height: 125%;
+    width: 100%;
+}
+
+.gimage {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+.gtitle {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.menubar {
+    z-index: 5;
+}
+
+.close-img {
+    top: 60px;
+    right: 50px;
+}
+
+.bar-img1 {
+    height: 34px;
+    width: 16rem;
+    padding: 54px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:640px) {
+    .container {
+        position: absolute;
+        right: 96px;
+    }
+    .menu {
+        left: 55px;
+        top: 120px;
+    }
+    .close-img {
+        top: 76px;
+        right: 80px;
+    }
+    .bar-img1 {
+        padding-top: 73px;
+        width: 37vw;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 940px) and (max-width: 1024px) {
+    .gheader {
+        height: 72%;
+    }
+    .logo-img1 {
+        width: 30vw;
+    }
+    .gmain-content {
+        grid-template-columns: 1fr 1fr;
+    }
+    .item-container {
+        top: 80px;
+        left: -8%;
+    }
+    .gmain-content {
+        height: 210%;
+    }
+    .gitems {
+        font-size: 4.2rem;
+        bottom: 104px;
+        left: 155px;        
+    }
+    .gtitle {
+        padding-top: 0.5rem;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 940px) {
+    .gmain-content {
+        grid-template-columns: 1fr 1fr;
+    }
+    .item-container {
+        top: 80px;
+        left: -8%;
+    }
+    .gmain-content {
+        height: 190%;
+    }
+    .gitems {
+        font-size: 3.6rem;
+        bottom: 96px;
+        left: 125px;        
+    }
+    .gtitle {
+        padding-top: 0.8rem;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .item-container {
+        left: -89px;
+    }
+    .gitems {
+        bottom: 107px;
+        left: 112px;
+    }
+    .gmain-content {
+        height: 87%;
+    }
+}
+
+/* Mobiles */
+@media screen and (min-width: 594px) and (max-width: 640px) {
+    .gheader {
+        height: 52%;
+    }
+    .logo-img1 {
+        width: 40vw;
+    }
+    .gmain-content {
+        grid-template-columns: 1fr;
+    }
+    .item-container {
+        top: 84px;
+        left: -5%;
+    }
+    .gmain-content {
+        height: 490%;
+    }
+    .gitems {
+        font-size: 2.4rem;
+        bottom: 82px;
+        left: 115px;
+    }   
+}
+
+@media screen and (min-width: 480px) and (max-width: 594px) {
+    .item-container {
+        top: 86px;
+        left: -30px;
+    }
+    .gitems {
+        bottom: 100px;
+        font-size: 2.8rem;
+        left: 99px;
+    }
+    .gmain-content {
+        grid-template-columns: 1fr;
+    }
+    .gmain-content {
+        height: 425%;
+    }
+    .gtitle {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .item-container {
+        top: 60px;
+        left: -30px;
+    }
+    .gheader {
+        height: 46%;
+    }
+    .gitems {
+        bottom: 81px;
+        font-size: 1.8rem;
+        left: 63px;
+    }
+    .gmain-content {
+        grid-template-columns: 1fr;
+    }
+    .gmain-content {
+        height: 400%;
+    }
+    .menu {
+        left: 15px;
+    }
+    .logo-img1 {
+        width: 26vw;
+    }
+    .bar-img1 {
+        padding-top: 45px;
+    }
+    .close-img {
+        top: 53px;
+    }
+}
+
+/* Mini Phones */
+@media screen and (min-width: 240px) and (max-width: 320px) {
+    .gmain-content {
+        grid-template-columns: 1fr;
+    }   
+    .gheader {
+        height: 52%;
+    }
+    .logo-img1 {
+        width: 40vw;
+    }
+    .item-container {
+        left: -5%;
+    }
+    .gmain-content {
+        height: 400%;
+    }
+    .gitems {
+        font-size: 2rem;
+        bottom: 64px;
+        left: 60px;
+    }
+    .gtitle {
+        padding-top: 0.5rem;
+    }
+
+}

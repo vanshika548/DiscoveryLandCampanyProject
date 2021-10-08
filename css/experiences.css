@@ -1,0 +1,704 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+ body {
+    background-color: #fff;
+}
+
+/* Header */
+
+.exp_header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: initial;
+    min-height: unset;
+}
+
+.item-container {
+    position: absolute;
+    top: 76px;
+    left: -100px;
+    font-weight: 900;
+    color: #FFFFFF;
+    z-index: 5;
+}
+
+.logo-img1 {
+    width: 35vw;
+}
+
+.menubar {
+    z-index: 10;
+}
+
+.bg_video {
+    width: 100vw;
+}
+
+.close-img {
+    top: 9.8%;
+    right: 6.5%;
+}
+
+.exp_title {
+    color: #FFFFFF;
+    position: absolute;
+    font-weight: lighter;
+    top: 36%;
+    left: 21%;
+    z-index: 5;
+}
+
+.exp_title1 {
+    font-family: 'Spectral', serif;
+    font-size: 3.9rem;
+    margin-bottom: -7%;
+}
+
+.exp_title2 {
+    font-family: Montserrat;
+    letter-spacing: 4.8px;
+    font-size: 3.2rem;
+    margin-left: 4px;
+}
+
+.exp_scroll {
+    position: absolute;
+    color: #fff;
+    opacity: 0.8;
+    bottom: 15%;
+    left: 10%;
+}
+
+.scroll_btn {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    height: 10vh;
+    width: 5vw;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    border-radius: 50%;
+}
+
+/* section 1 */
+
+.section1_exp {
+    font-family: 'Spectral', serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    left: 15%;
+    top: 30%;
+    opacity: 1;
+    width: 72%;
+    height: 65vh;
+    color: #111;
+    letter-spacing: 1px;
+    transform: translate(0px, 0px);
+}
+
+/* section 2 */
+
+.section2_exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    height: 135vh;
+    margin-top:-7%;
+}
+
+.left_sec1 {
+    position: relative;
+    left: 30%;
+    top: 24%;
+    width: 65%;
+}
+
+.h_exp {
+    font-family: 'Spectral', serif;
+    font-size: 2rem;
+}
+
+.p_exp {
+    font-family: Montserrat;
+    color: rgb(121, 117, 117);
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+
+.exp_img1 {
+    width: 38vw;
+    height: 82vh;    
+    width: 40vw;
+    position: relative;
+    top: 10%;
+    height: 105vh;
+}
+
+.exp_img0 {
+    display: none;
+}
+
+/* section 3 and 5 */
+
+/* golf and wellness */
+.section3_5 {
+    width: 100%;
+    padding-top: 10%;
+    height: 125vh;
+    background-color: #f3f3f3;
+    position: relative;   
+}
+.article1 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 23%;
+}
+
+.article_bg1 {
+    height: 75%;
+    width: 65%;
+    margin-right: 7%;
+    background-color: lightgray;
+}
+
+.article_text {
+    position: absolute;
+    height: 70vh;
+    width: 35vw;
+    background-color: #fff;
+    z-index: 5;
+    top: 24%;
+    right: 7%;
+    padding: 2%;
+}
+
+.article_text > h1 { 
+    font-weight: lighter;
+    font-size: 2.5rem;
+    position: relative;
+    right: -11%;
+}
+
+.article_text > p {
+    color: #777777;
+    font-family: Montserrat;
+    font-size: 0.88rem;
+    font-weight: 600;
+    line-height: 2rem;
+    width: 31vw;
+    position: relative;
+    left: 11%;
+    word-spacing: 1px;
+}
+
+.article_text > h3 {
+    border: 1px solid lightgray;
+    text-align: center;
+    width: fit-content;
+    color: #000;
+    padding: 20px 50px;
+    position: relative;
+    left: 11%;
+    top: 4%;
+    font-weight: lighter;
+}
+
+.article_text > h3:hover {
+    border: 2px solid #000;
+}
+
+.golf_image > img, .pursuits_image >img, .wellness_image > img {
+    width: 75%;
+    height: 80%;
+    position: relative;
+    z-index: 2;
+}
+
+.article_content { 
+    width: 90%;
+    display: flex;
+    justify-content: end;   
+}
+
+/* section 4 */
+
+.section4_exp {
+    direction:rtl;
+    width: 100vw;
+    padding-top: 10%;
+    height: 128vh;
+    background-color: #f3f3f3;
+    position: relative; 
+}
+.article2 {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+    position: absolute;
+    margin-top: 23%;
+}
+
+.article_bg2 {
+    height: 80vh;
+    width: 57vw;
+    background-color: lightgray;
+}
+
+.article_content1 {
+    width: 90%;
+    display: flex;
+    justify-content: end; 
+}
+
+.article_text1 {
+    direction: ltr;
+    position: absolute;
+    height: 72vh;
+    width: 38vw;
+    background-color: #fff;
+    z-index: 5;
+    top: 24%;
+    left: 5%;
+    padding: 2%;
+}
+
+.article_text1 > h1 {
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    position: relative;
+    left: 8%;
+    letter-spacing: -0.1rem;
+}
+
+.article_text1 > p {
+    color: #777777;
+    font-family: Montserrat;
+    font-size: 0.88rem;
+    font-weight: 600;
+    line-height: 2rem;
+    width: 30vw;
+    position: relative;
+    left: 9%;
+    word-spacing: 1px;
+}
+
+.article_text1 > h3 {
+    border: 1px solid lightgray;
+    text-align: center;
+    width: fit-content;
+    color: #000;
+    padding: 20px 50px;
+    position: relative;
+    left: 9%;
+    top: 4%;
+    font-weight: lighter;
+}
+
+.article_text1 > h3:hover {
+    border: 2px solid #000;
+}
+
+/* section 6 */
+
+.section6_exp {
+    margin-top: 7%;
+    height: 80vh;
+    width: 100vh;
+}
+
+.section6_exp a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.exp_img {
+    height: 80vh;
+    width: 250vh;
+    filter: brightness(65%);
+}
+
+.h3_exp {
+    position: relative;
+    bottom: 75%;
+    left: 95%;
+    font-size: 2.7rem;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    position: relative;
+    bottom: 69%;
+    left: 103%;
+    border: 1px solid rgb(204, 198, 198);
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 20px 50px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    /* header */
+    .item-container {
+        left: -10%;
+    }
+    .logo-img1 {
+        width: 20vw;
+    }
+    .logo-content1 {
+        width: 33vw;
+    }
+    .home_header {
+        height: 68%;
+    }
+    .bg_video {
+        width: unset;
+        height: 50vh;
+    }
+    .exp_header {
+        height: 50vh;
+    }
+    .exp_video {
+        height: 50vh;
+    } 
+    .exp_title {
+        top: 34%;
+    }   
+    .exp_title1 {
+        font-size: 2.6rem;
+    }    
+    .exp_title2 {
+        font-size: 2.5rem;
+        letter-spacing: 0.6px
+    }     
+    .exp_scroll {
+        display: none;
+    }
+    .scroll_btn {
+        top: 76%;
+        right: 40%;    
+        height: 8vh;
+        width: 11vw;
+    }
+    .close-img {
+        top: 6.5%;
+        right: 3.5%;
+    } 
+    /* section 1  */
+    .section1_exp {
+        left: 3%;
+        top: 7%;
+        height: 26vh;
+        width: 95%;
+        letter-spacing: 0px;
+    }
+    /* section 2 */
+    .section2_exp {
+        height: 155vh;
+    }
+    .exp_img1 {
+        display: none;
+    }
+    .exp_img0 {
+        height: 83vh;
+        width: 68vw;
+        display: block;
+        position: relative;
+        top: -15%; 
+        left: 12%;   
+    }
+    .h_exp {
+        position: relative;
+        top: -10%;
+        left: 22%;
+    }
+    .p_exp {
+        left: 22%;
+        position: relative;
+        top: -10%;
+        width: 49vw;
+    }
+    /* section 3 and 5 */
+    .section3_5 {
+        height: 78vh;
+    }
+    .golf_image > img, .wellness_image > img {
+        width: 68%;
+        left: 16%;
+    }
+    .article_bg1 {
+        height: 43%;
+        width: 68%;
+        margin-right: 0%;
+    }
+    .article_text {
+        height: 34vh;
+        width: 60vw;
+        top: 50%;
+        right: 18%;
+    }
+    .article_text > h1 {
+        font-size: 1.99rem;
+        left: 4%;
+    }
+    .article_text > p {
+        width: 59vw;
+        left: 4%;
+    }
+    .article_text > h3 {
+        left: 5%;
+    }
+
+    /* section 4 */
+    .section4_exp {
+        height: 78vh;
+    }
+    .pursuits_image > img {
+        width: 68%;
+        right: 16%;
+    }
+    .article_bg2 {
+        height: 45%;
+        width: 68%;
+        margin-left: 0%;
+    }
+    .article_text1 {
+        height: 38vh;
+        width: 60vw;
+        top: 50%;
+        right: 18%;
+    }
+    .article_text1 > h1 {
+        font-size: 1.99rem;
+        left: 4%;
+    }
+    .article_text1 > p {
+        width: 59vw;
+        left: 4%;
+    }
+    .article_text1 > h3 {
+        left: 5%;
+    }
+    /* section 6 */
+    .section6_exp {
+        height: 43.5vh;
+    }
+    .exp_img {
+        height: 44vh;
+        width: 82vh;
+    }
+    .h3_exp {
+        position: relative;
+        bottom: 76%;
+        left: 26%;
+    }
+    .exp_dlc {
+        left: 31%;
+        font-size: 2.4rem;
+    }
+    .btn {
+        left: 31%;
+    }
+    .footer-container {
+        height: 38%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    /* header */
+    .logo-img1 {
+        width: 122%;
+    }
+    .logo-content1 {
+        width: 161%;
+    }
+    .header-content {
+        width: 100%;
+    }
+    .item-container {
+        top: 5.5rem;
+    }
+    .exp_head {
+        height: 100vh;
+    }
+    .bg_video {
+        width: unset;
+    }
+    .exp_title {
+        top: 46%;
+        left: 9%;
+    } 
+    .exp_title1 {
+        font-size: 2.5rem;
+        letter-spacing: -0.1rem;
+    }   
+    .exp_title2 {
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }         
+    .exp_scroll {
+        display: none;
+    }
+    .scroll_btn {
+        top: 82%;
+        right: 43%;
+        height: 11vh;
+        width: 22vw;
+    }
+    .close-img {
+        top: 11%;
+        right: 12.5%;
+    }
+    /* section 1  */
+    .section1_exp {
+        left: 8%;
+        top: 7%;
+        height: 26vh;
+        width: 91%;
+        font-size: 1.45rem;
+        letter-spacing: 0px;
+        text-align: unset;
+    }
+    /* section 2 */
+    .section2_exp {
+        height: 129vh;
+    }
+    .exp_img1 {
+        display: none;
+    }
+    .exp_img0 {
+        height: 46vh;
+        width: 81vw;
+        display: block;
+        position: relative;
+        top: -11%;
+        left: -6%;  
+    }    
+    .h_exp {
+        position: relative;
+        top: -7%;
+        font-size: 1.5rem;
+        left: -5%;
+    }
+    .p_exp {
+        left: -5%;
+        position: relative;
+        top: -7%;
+        font-size: 0.8rem;
+        width: 81vw;
+        line-height: 1.5rem;
+    }
+    /* section 3 and 5 */
+    .section3_5 {
+        height: 90vh;
+    }
+    .golf_image > img, .wellness_image > img {
+        width: 92%;
+        left: 4%;
+    }
+    .article_bg1 {
+        height: 43%;
+        width: 92%;
+        margin-right: 0%;
+    }
+    .article_text {
+        height: 53vh;
+        width: 80vw;
+        top: 35%;
+        right: 8%;    
+    }
+    .article_text > h1 {
+        font-size: 1.8rem;
+        left: 8%;
+    }
+    .article_text > p {
+        font-size: 0.7rem;
+        width: 65vw;
+        line-height: 1.7rem;
+        left: 8%;
+    }
+    .article_text > h3 {
+        left: 8%;
+        padding: 16px 34px;
+        font-size: 0.9rem;
+    }
+
+    /* section 4 */
+    .section4_exp {
+        height: 90vh;
+    }
+    .pursuits_image > img {
+        width: 92%;
+        right: 4%;
+    }
+    .article_bg2 {
+        height: 43%;
+        width: 92%;
+        margin-left: 0%;
+    }
+    .article_text1 {
+        height: 53vh;
+        width: 80vw;
+        top: 35%;
+        left: 8%; 
+    }
+    .article_text1 > h1 {
+        font-size: 1.8rem;
+        right: 8%;
+    }
+    .article_text1 > p {
+        font-size: 0.7rem;
+        width: 65vw;
+        line-height: 1.7rem;
+        right: 8%;
+    }
+    .article_text1 > h3 {
+        right: 8%;
+        padding: 16px 34px;
+        font-size: 0.9rem;
+    }  
+    /* section 6  */
+    .section6_exp {
+        height: 43.5vh;
+    }
+    .exp_img {
+        height: 44vh;
+        width: 60vh;    
+    }
+    .h3_exp {
+        left: 10%;
+        top: -82%;
+        font-size: 2.3rem;
+    }
+    .btn {
+        left: 14%;
+        top: -81%;
+    }
+    .footer-container {
+        height: 60%;
+    }
+}
